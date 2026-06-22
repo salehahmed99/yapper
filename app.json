@@ -9,11 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/yapper.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff",
       "dark": {
-        "image": "./assets/images/yapper.png",
+        "image": "./assets/splash.png",
         "backgroundColor": "#000000"
       }
     },
@@ -22,7 +22,10 @@
       "bundleIdentifier": "com.salehahmed99.yappermobile",
       "icon": "./assets/images/yapper.png",
       "infoPlist": {
-        "LSApplicationQueriesSchemes": ["googlechrome", "itms-apps"],
+        "LSApplicationQueriesSchemes": [
+          "googlechrome",
+          "itms-apps"
+        ],
         "NSMicrophoneUsageDescription": "This app requires microphone access to record audio."
       }
     },
@@ -36,11 +39,11 @@
       "package": "com.salehahmed99.yappermobile",
       "icon": "./assets/images/yapper.png",
       "splash": {
-        "image": "./assets/images/yapper.png",
+        "image": "./assets/splash.png",
         "resizeMode": "contain",
         "backgroundColor": "#ffffff",
         "dark": {
-          "image": "./assets/images/yapper.png",
+          "image": "./assets/splash.png",
           "backgroundColor": "#000000"
         }
       },
@@ -57,7 +60,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/yapper.png",
+          "image": "./assets/splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
